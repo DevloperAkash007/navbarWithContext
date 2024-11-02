@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.navbar {
+  padding: 10px 20px;
+}
+.dark-bg {
+  background-color: #333333;
+}
+.light-bg {
+  background-color: #ffffff;
+  border-bottom: 2px solid #dcdcdc;
+}
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+}
+.nav-link-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+}
+.nav-link {
+  text-decoration: none;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-item-white-color {
+  color: #000000;
+}
+.nav-item-dark-color {
+  color: #ffffff;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
